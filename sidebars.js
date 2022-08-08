@@ -52,28 +52,28 @@ module.exports = {
     //   ],
     //   collapsed: true,
     // },
-    {
-      type: "category",
-      label: "Standard Live Streaming",
-      items: [
-        //"overview/live-streaming/introduction",
-        // "overview/live-streaming/features",
-        "overview/live-streaming/getting-started",
-        "overview/live-streaming/architecture",
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Video On Demand",
-      items: [
-        // "overview/video-on-demand/introduction",
-        // "overview/video-on-demand/features",
-        "overview/video-on-demand/getting-started",
-        "overview/video-on-demand/architecture",
-      ],
-      collapsed: true,
-    },
+    // {
+    //   type: "category",
+    //   label: "Standard Live Streaming",
+    //   items: [
+    //     //"overview/live-streaming/introduction",
+    //     // "overview/live-streaming/features",
+    //     "overview/live-streaming/getting-started",
+    //     "overview/live-streaming/architecture",
+    //   ],
+    //   collapsed: true,
+    // },
+    // {
+    //   type: "category",
+    //   label: "Video On Demand",
+    //   items: [
+    //     // "overview/video-on-demand/introduction",
+    //     // "overview/video-on-demand/features",
+    //     "overview/video-on-demand/getting-started",
+    //     "overview/video-on-demand/architecture",
+    //   ],
+    //   collapsed: true,
+    // },
   ],
 
   // Guide to learn about each SDK
@@ -250,87 +250,87 @@ module.exports = {
     },
   ],
 
-  guideStandardLiveStreaming: [
-    {
-      type: "category",
-      label: "Guide",
-      items: ["guide/standard-live-streaming-api-sdk/getting-started"],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Quick Setup",
-      items: [
-        "guide/standard-live-streaming-api-sdk/signup-and-create-api",
-        "guide/standard-live-streaming-api-sdk/authentication",
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Basic Features",
-      items: [
-        "guide/standard-live-streaming-api-sdk/features/create-new-live-stream",
-        "guide/standard-live-streaming-api-sdk/features/go-live-with-rtmp",
-        "guide/standard-live-streaming-api-sdk/features/play-live-stream",
-        "guide/standard-live-streaming-api-sdk/features/record-live-stream",
-        "guide/standard-live-streaming-api-sdk/features/restream-social-media",
-        "guide/standard-live-streaming-api-sdk/features/fetch-listof-live-stream",
-        "guide/standard-live-streaming-api-sdk/features/get-live-stream-details",
-        "guide/standard-live-streaming-api-sdk/features/update-live-stream",
-      ],
-      collapsed: true,
-    },
-  ],
+  // guideStandardLiveStreaming: [
+  //   {
+  //     type: "category",
+  //     label: "Guide",
+  //     items: ["guide/standard-live-streaming-api-sdk/getting-started"],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Quick Setup",
+  //     items: [
+  //       "guide/standard-live-streaming-api-sdk/signup-and-create-api",
+  //       "guide/standard-live-streaming-api-sdk/authentication",
+  //     ],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Basic Features",
+  //     items: [
+  //       "guide/standard-live-streaming-api-sdk/features/create-new-live-stream",
+  //       "guide/standard-live-streaming-api-sdk/features/go-live-with-rtmp",
+  //       "guide/standard-live-streaming-api-sdk/features/play-live-stream",
+  //       "guide/standard-live-streaming-api-sdk/features/record-live-stream",
+  //       "guide/standard-live-streaming-api-sdk/features/restream-social-media",
+  //       "guide/standard-live-streaming-api-sdk/features/fetch-listof-live-stream",
+  //       "guide/standard-live-streaming-api-sdk/features/get-live-stream-details",
+  //       "guide/standard-live-streaming-api-sdk/features/update-live-stream",
+  //     ],
+  //     collapsed: true,
+  //   },
+  // ],
 
-  guideVideoOnDemand: [
-    {
-      type: "category",
-      label: "Guide",
-      items: ["guide/video-on-demand/getting-started"],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Quick Setup",
-      items: [
-        "guide/video-on-demand/signup-and-create-api",
-        "guide/video-on-demand/authentication",
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Features",
-      items: [
-        {
-          type: "category",
-          label: "File",
-          items: [
-            "guide/video-on-demand/features/upload-file",
-            "guide/video-on-demand/features/list-all-files",
-            "guide/video-on-demand/features/get-file-details",
-            "guide/video-on-demand/features/delete-file",
-          ],
-          collapsed: true,
-        },
-        {
-          type: "category",
-          label: "Encoding",
-          items: [
-            "guide/video-on-demand/features/create-encoding-job",
-            "guide/video-on-demand/features/list-encoding-jobs",
-            "guide/video-on-demand/features/get-encoding-job-details",
-            "guide/video-on-demand/features/delete-encoding-job",
-          ],
-          collapsed: true,
-        },
-        "guide/video-on-demand/features/play-video",
-      ],
+  // guideVideoOnDemand: [
+  //   {
+  //     type: "category",
+  //     label: "Guide",
+  //     items: ["guide/video-on-demand/getting-started"],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Quick Setup",
+  //     items: [
+  //       "guide/video-on-demand/signup-and-create-api",
+  //       "guide/video-on-demand/authentication",
+  //     ],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Features",
+  //     items: [
+  //       {
+  //         type: "category",
+  //         label: "File",
+  //         items: [
+  //           "guide/video-on-demand/features/upload-file",
+  //           "guide/video-on-demand/features/list-all-files",
+  //           "guide/video-on-demand/features/get-file-details",
+  //           "guide/video-on-demand/features/delete-file",
+  //         ],
+  //         collapsed: true,
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Encoding",
+  //         items: [
+  //           "guide/video-on-demand/features/create-encoding-job",
+  //           "guide/video-on-demand/features/list-encoding-jobs",
+  //           "guide/video-on-demand/features/get-encoding-job-details",
+  //           "guide/video-on-demand/features/delete-encoding-job",
+  //         ],
+  //         collapsed: true,
+  //       },
+  //       "guide/video-on-demand/features/play-video",
+  //     ],
 
-      collapsed: true,
-    },
-  ],
+  //     collapsed: true,
+  //   },
+  // ],
 
   realtimeCommunicationSidebar: [
     {
@@ -489,77 +489,77 @@ module.exports = {
     },
   ],
 
-  livestreamingSidebar: [
-    {
-      type: "category",
-      label: "Live Streaming",
-      items: ["api-reference/live-streaming/intro"],
-      collapsed: true,
-    },
-    /*{
-      type: "category",
-      label: "GET STARTED",
-      items: [
-        "api-reference/live-streaming/get-started/features",
-        "api-reference/live-streaming/get-started/live-streaming-with-rest-api",
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "TUTORIALS",
-      items: ["api-reference/live-streaming/tutorials/live-streaming-tutorial"],
-      collapsed: true,
-    },*/
+  // livestreamingSidebar: [
+  //   {
+  //     type: "category",
+  //     label: "Live Streaming",
+  //     items: ["api-reference/live-streaming/intro"],
+  //     collapsed: true,
+  //   },
+  //   /*{
+  //     type: "category",
+  //     label: "GET STARTED",
+  //     items: [
+  //       "api-reference/live-streaming/get-started/features",
+  //       "api-reference/live-streaming/get-started/live-streaming-with-rest-api",
+  //     ],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "TUTORIALS",
+  //     items: ["api-reference/live-streaming/tutorials/live-streaming-tutorial"],
+  //     collapsed: true,
+  //   },*/
 
-    {
-      type: "category",
-      label: "Rest API Reference",
-      items: [
-        "api-reference/live-streaming/auth",
-        "api-reference/live-streaming/create-live-stream",
-        "api-reference/live-streaming/list-live-streams",
-        "api-reference/live-streaming/get-live-stream",
-        "api-reference/live-streaming/update-live-stream",
-        "api-reference/live-streaming/delete-live-stream",
-      ],
-      collapsed: true,
-    },
-  ],
+  //   {
+  //     type: "category",
+  //     label: "Rest API Reference",
+  //     items: [
+  //       "api-reference/live-streaming/auth",
+  //       "api-reference/live-streaming/create-live-stream",
+  //       "api-reference/live-streaming/list-live-streams",
+  //       "api-reference/live-streaming/get-live-stream",
+  //       "api-reference/live-streaming/update-live-stream",
+  //       "api-reference/live-streaming/delete-live-stream",
+  //     ],
+  //     collapsed: true,
+  //   },
+  // ],
 
-  videoondemandSidebar: [
-    {
-      type: "category",
-      label: "Video On Demand",
-      items: ["api-reference/video-on-demand/intro"],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Storage Rest API Reference",
-      items: [
-        "api-reference/video-on-demand/storage-api-reference/auth",
-        "api-reference/video-on-demand/storage-api-reference/create-new-url",
-        "api-reference/video-on-demand/storage-api-reference/upload-file",
-        "api-reference/video-on-demand/storage-api-reference/list-all-files",
-        "api-reference/video-on-demand/storage-api-reference/get-file-details",
-        "api-reference/video-on-demand/storage-api-reference/delete-file",
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Encoding Rest API Reference",
-      items: [
-        "api-reference/video-on-demand/encoding-api-reference/auth",
-        "api-reference/video-on-demand/encoding-api-reference/create-encoding-job",
-        "api-reference/video-on-demand/encoding-api-reference/list-all-encoding-jobs",
-        "api-reference/video-on-demand/encoding-api-reference/get-encoding-job-details",
-        "api-reference/video-on-demand/encoding-api-reference/delete-encoding-job",
-      ],
-      collapsed: true,
-    },
-  ],
+  // videoondemandSidebar: [
+  //   {
+  //     type: "category",
+  //     label: "Video On Demand",
+  //     items: ["api-reference/video-on-demand/intro"],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Storage Rest API Reference",
+  //     items: [
+  //       "api-reference/video-on-demand/storage-api-reference/auth",
+  //       "api-reference/video-on-demand/storage-api-reference/create-new-url",
+  //       "api-reference/video-on-demand/storage-api-reference/upload-file",
+  //       "api-reference/video-on-demand/storage-api-reference/list-all-files",
+  //       "api-reference/video-on-demand/storage-api-reference/get-file-details",
+  //       "api-reference/video-on-demand/storage-api-reference/delete-file",
+  //     ],
+  //     collapsed: true,
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Encoding Rest API Reference",
+  //     items: [
+  //       "api-reference/video-on-demand/encoding-api-reference/auth",
+  //       "api-reference/video-on-demand/encoding-api-reference/create-encoding-job",
+  //       "api-reference/video-on-demand/encoding-api-reference/list-all-encoding-jobs",
+  //       "api-reference/video-on-demand/encoding-api-reference/get-encoding-job-details",
+  //       "api-reference/video-on-demand/encoding-api-reference/delete-encoding-job",
+  //     ],
+  //     collapsed: true,
+  //   },
+  // ],
 
   tutorials: [
     {
@@ -591,32 +591,32 @@ module.exports = {
       ],
       collapsed: true,
     },
-    {
-      type: "category",
-      label: "Live Streaming API",
-      items: [
-        {
-          type: "category",
-          label: "Quickstart",
-          collapsed: true,
-          items: ["tutorials/live-streaming/api/quickstart-rest-api"],
-        },
-      ],
-      collapsed: true,
-    },
-    {
-      type: "category",
-      label: "Video On Demand API",
-      items: [
-        {
-          type: "category",
-          label: "Quickstart",
-          collapsed: true,
-          items: ["tutorials/video-on-demand/api/quickstart-rest-api"],
-        },
-      ],
-      collapsed: true,
-    },
+    // {
+    //   type: "category",
+    //   label: "Live Streaming API",
+    //   items: [
+    //     {
+    //       type: "category",
+    //       label: "Quickstart",
+    //       collapsed: true,
+    //       items: ["tutorials/live-streaming/api/quickstart-rest-api"],
+    //     },
+    //   ],
+    //   collapsed: true,
+    // },
+    // {
+    //   type: "category",
+    //   label: "Video On Demand API",
+    //   items: [
+    //     {
+    //       type: "category",
+    //       label: "Quickstart",
+    //       collapsed: true,
+    //       items: ["tutorials/video-on-demand/api/quickstart-rest-api"],
+    //     },
+    //   ],
+    //   collapsed: true,
+    // },
     "tutorials/customized-layout",
   ],
 

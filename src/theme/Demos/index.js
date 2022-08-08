@@ -35,7 +35,7 @@ function Demos() {
                       Real Time Messaging Quick Start
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/docs/guide/standard-live-streaming-api-sdk/intro">
                       Standard Live Streaming Quick Start
                     </a>
@@ -44,7 +44,7 @@ function Demos() {
                     <a href="/docs/api-reference/video-on-demand/intro">
                       Video On Demand Quick Start
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Demos() {
                       How to build scalable video conferencing in 10 minutes
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/docs/tutorials/live-streaming/api/quickstart-rest-api">
                       Integrate Live streaming with REST APIs in your
                       application.
@@ -79,7 +79,7 @@ function Demos() {
                       Integrate Video On Demand with REST APIs in your
                       application.
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

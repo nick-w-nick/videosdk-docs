@@ -13,26 +13,26 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: "Live Streming SDK",
-    link: "/docs/live-streaming/intro",
-    description: (
-      <>
-        Our live streaming SDK can be helpful to scale your custom live
-        streaming solution with just couple of lines of code.
-      </>
-    ),
-  },
-  {
-    title: "Video On Demand",
-    link: "/docs/video-on-demand/intro",
-    description: (
-      <>
-        Video On Demand SDK/API provides end-to-end media workflow with media
-        storage, encoding and streaming.
-      </>
-    ),
-  },
+  // {
+  //   title: "Live Streming SDK",
+  //   link: "/docs/live-streaming/intro",
+  //   description: (
+  //     <>
+  //       Our live streaming SDK can be helpful to scale your custom live
+  //       streaming solution with just couple of lines of code.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: "Video On Demand",
+  //   link: "/docs/video-on-demand/intro",
+  //   description: (
+  //     <>
+  //       Video On Demand SDK/API provides end-to-end media workflow with media
+  //       storage, encoding and streaming.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({ link, title, description }) {
