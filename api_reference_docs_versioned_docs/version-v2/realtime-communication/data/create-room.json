@@ -25,8 +25,8 @@
       },
       {
         "key": "customRoomId",
-        "value": "aaa-bbb-ccc",
-        "description": "#### Customize Room id for better understanding.",
+        "value": "aaaa-bbbb-cccc",
+        "description": "#### A custom ID used to identify a room other than the `roomId`. This value must be unique for each room.",
         "required": false
       },
       {
