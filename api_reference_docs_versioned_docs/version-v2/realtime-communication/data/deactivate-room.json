@@ -1,7 +1,7 @@
 {
   "deactivateRoom": {
     "title": "Deactivate a Room",
-    "description": "This API lets you deactivate the provided roomId for ever.",
+    "description": "This API allows you to deactivate a provided `roomId` permanently.",
     "headers": [
       {
         "key": "Authorization",
