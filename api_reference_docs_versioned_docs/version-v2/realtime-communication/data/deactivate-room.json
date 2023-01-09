@@ -16,8 +16,8 @@
     "postParameters": [
       {
         "key": "roomId",
-        "description": "#### Room id that you want to deactivate",
-        "value": "your_roomId",
+        "description": "#### The ID of the room that you want to deactivate",
+        "value": "abcd-efgh-ijkl",
         "required": true
       }
     ],
