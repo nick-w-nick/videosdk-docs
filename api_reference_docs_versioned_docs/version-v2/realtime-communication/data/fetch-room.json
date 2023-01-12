@@ -1,7 +1,7 @@
 {
   "fetchRoom": {
     "title": "Fetch a Room",
-    "description": "This API lets you fetch a particular room info by passing roomId or customRoomId as parameter.",
+    "description": "This API lets you fetch the details for a room by passing the roomId or customRoomId as a path parameter.",
     "headers": [
       {
         "key": "Authorization",
@@ -30,10 +30,10 @@
       "createdAt": "2022-03-25T04:19:32.380Z",
       "updatedAt": "2022-03-25T04:19:32.380Z",
       "user": {
-        "email": "john@videosdk.live",
-        "name": "John",
+        "name": "Test User",
+        "email": "test@email.com",
         "discontinuedReason": null,
-        "id": "5f7edbb14c938bcd42944527"
+        "id": "5fa671e77b80d58c11cbca95"
       },
       "id": "623d42d472498060cccb51f2",
       "links": {
