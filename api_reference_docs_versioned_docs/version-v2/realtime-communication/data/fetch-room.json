@@ -1,7 +1,7 @@
 {
   "fetchRoom": {
     "title": "Fetch a Room",
-    "description": "Allows you to fetch the details for a room.",
+    "description": "Allows you to fetch the details for a specific room via the room ID.",
     "headers": [
       {
         "key": "Authorization",
