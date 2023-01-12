@@ -1,7 +1,7 @@
 {
   "endSession": {
     "title": "End Session",
-    "description": "This API lets you end session by passing  either roomId or sessionId as body parameters.",
+    "description": "This API allows you to end a session by passing the roomId or sessionId in the request body.",
     "headers": [
       {
         "key": "Authorization",
@@ -16,13 +16,13 @@
     "postParameters": [
       {
         "key": "roomId",
-        "description": "Your roomId or customRoomId.",
+        "description": "The `roomId` or `customRoomId`.",
         "value": "roomId",
         "required": true
       },
       {
         "key": "sessionId",
-        "description": "Your sessionId",
+        "description": "The `sessionId` of the session.",
         "value": "sessionId",
         "required": false
       }
