@@ -33,7 +33,7 @@
         "key": "webhook",
         "value": "see example",
         "values": "\n```\n{\n  'webhook': {\n    'endPoint': 'your webhook endpoint',\n    'events': ['webhook event type_1', 'webhook event type_2']\n   }\n}\n```",
-        "description": "#### You can subscribe to various types of events to receive a webhook when one or more specified events occur in the room. \n - `participant-joined` \n - `participant-left` \n - `session-started` \n - `session-ended` \n - `recording-started` \n - `recording-stopped` \n - `livestream-started` \n - `livestream-stopped` \n - `hls-started` \n - `hls-stopped` \n Please refer the [User Webhooks](/api-reference/realtime-communication/user-webhooks) page for more information.",
+        "description": "#### You can subscribe to various types of events to receive a webhook when one or more specified events occur in the room:\n - `participant-joined` \n - `participant-left` \n - `session-started` \n - `session-ended` \n - `recording-started` \n - `recording-stopped` \n - `livestream-started` \n - `livestream-stopped` \n - `hls-started` \n - `hls-stopped` \n\nPlease refer the [User Webhooks](/api-reference/realtime-communication/user-webhooks) page for more information regarding event webhooks.",
         "required": false
       }
     ],
