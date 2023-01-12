@@ -17,8 +17,8 @@
     "queryParameters": [],
     "parameters": [
       {
-        "key": "MeetingId",
-        "description": "#### The ID of the Meeting.",
+        "key": "roomId",
+        "description": "#### The ID of the Room.",
         "required": true
       }
     ],
