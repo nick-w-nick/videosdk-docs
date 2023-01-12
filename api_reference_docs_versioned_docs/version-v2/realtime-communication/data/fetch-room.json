@@ -18,14 +18,14 @@
     "parameters": [
       {
         "key": "roomId",
-        "description": "#### Your roomId or customRoomId.",
+        "description": "#### The roomId or customRoomId of the room.",
         "required": true
       }
     ],
     "apiEndpoint": "https://api.videosdk.live/v2/rooms/${roomId}",
     "response": {
-      "roomId": "abcd-efgh-lmno",
-      "customRoomId": "final-testing",
+      "roomId": "abcd-efgh-ijkl",
+      "customRoomId": "aaaa-bbbb-cccc",
       "disabled": false,
       "createdAt": "2022-03-25T04:19:32.380Z",
       "updatedAt": "2022-03-25T04:19:32.380Z",
@@ -37,7 +37,7 @@
       },
       "id": "623d42d472498060cccb51f2",
       "links": {
-        "get_room": "https://api.videosdk.live/v2/rooms/abc-xyzw-lmno",
+        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
         "get_session": "https://api.videosdk.live/v2/sessions/"
       }
     }

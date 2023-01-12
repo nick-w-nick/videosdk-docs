@@ -64,10 +64,10 @@
         }
       ],
       "id": "62429766903bdf001299cac5",
-      "roomId": "abcd-efgh-lmno",
+      "roomId": "abcd-efgh-ijkl",
       "status": "ongoing",
       "links": {
-        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-lmno",
+        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
         "get_session": "https://api.videosdk.live/v2/sessions/"
       }
     }

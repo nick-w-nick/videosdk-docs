@@ -25,7 +25,7 @@
     "apiEndpoint": "https://api.videosdk.live/v2/recordings/${recordingId}",
     "response": {
       "userId": "5f7edbb14c938bcd42944527",
-      "roomId": "abc-xyzw-lmno",
+      "roomId": "abcd-efgh-ijkl",
       "sessionId": "61d6e823783d6b03a026ac05",
       "createdAt": "2022-01-06T13:01:40.814Z",
       "updatedAt": "2022-01-06T13:02:42.935Z",

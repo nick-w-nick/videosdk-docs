@@ -54,7 +54,7 @@
       "data": [
         {
           "id": "621497578bea0d0404c35c4c",
-          "roomId": "abc-xyzw-lmno",
+          "roomId": "abcd-efgh-ijkl",
           "start": "2022-02-22T07:57:11.505Z",
           "end": "2022-02-22T07:58:11.505Z",
           "participants": [
@@ -81,7 +81,7 @@
           ],
           "status": "ended",
           "links": {
-            "get_room": "https://api.videosdk.live/v2/rooms/abc-xyzw-lmno",
+            "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
             "get_session": "https://api.videosdk.live/v2/sessions/621497578bea0d0404c35c4c"
           }
         }

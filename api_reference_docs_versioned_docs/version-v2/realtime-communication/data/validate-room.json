@@ -24,15 +24,15 @@
     ],
     "apiEndpoint": "https://api.videosdk.live/v2/rooms/validate/${roomId}",
     "response": {
-      "roomId": "abc-xyzw-lmno",
-      "customRoomId": "demo-room",
+      "roomId": "abcd-efgh-ijkl",
+      "customRoomId": "aaaa-bbbb-cccc",
       "userId": "5f7edbb14c938bcd42944527",
       "disabled": false,
       "createdAt": "2022-03-24T11:12:12.619Z",
       "updatedAt": "2022-03-24T11:12:12.619Z",
       "id": "623c520c6b0631c41cc98e81",
       "links": {
-        "get_room": "https://api.videosdk.live/v2/rooms/abc-xyzw-lmno",
+        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
         "get_session": "https://api.videosdk.live/v2/sessions/"
       }
     }

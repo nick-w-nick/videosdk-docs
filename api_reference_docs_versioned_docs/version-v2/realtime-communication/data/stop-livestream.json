@@ -16,7 +16,7 @@
     "postParameters": [
       {
         "key": "roomId",
-        "value": "abcd-efgh-lmno",
+        "value": "abcd-efgh-ijkl",
         "description": "The ID of the Room.",
         "required": true
       }

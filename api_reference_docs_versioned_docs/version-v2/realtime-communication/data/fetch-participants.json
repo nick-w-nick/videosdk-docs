@@ -47,8 +47,8 @@
       },
       "data": {
         "id": "61763c2597b0c743cf454204",
-        "roomId": "abc-xyzw-lmno",
-        "customRoomId": "testing-room",
+        "roomId": "abcd-efgh-ijkl",
+        "customRoomId": "aaaa-bbbb-cccc",
         "participants": [
           {
             "participantId": "a1pu7evl",
@@ -102,7 +102,7 @@
           }
         ],
         "links": {
-          "get_room": "https://api.videosdk.live/v2/rooms/abc-xyzw-lmno",
+          "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
           "get_session": "https://api.videosdk.live/v2/sessions/"
         }
       }
