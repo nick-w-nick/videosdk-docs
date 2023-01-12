@@ -33,7 +33,7 @@
     "parameters": [
       {
         "key": "sessionId",
-        "description": "#### The ID of the Session.",
+        "description": "#### The ID of the session.",
         "required": true
       }
     ],

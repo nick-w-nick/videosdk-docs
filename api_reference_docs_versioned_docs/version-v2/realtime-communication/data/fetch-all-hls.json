@@ -18,13 +18,13 @@
       {
         "key": "roomId",
         "value": "xyz",
-        "description": "#### The ID of the Room.",
+        "description": "#### The ID of the room.",
         "required": true
       },
       {
         "key": "sessionId",
         "value": "xyz",
-        "description": "#### The ID of the Session.",
+        "description": "#### The ID of the session.",
         "required": false
       },
       {

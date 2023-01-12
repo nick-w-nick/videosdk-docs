@@ -16,7 +16,7 @@ const startLivestream = {
     {
       key: "roomId",
       value: "xyz",
-      description: "The ID of the Room.",
+      description: "The ID of the room.",
       required: true,
     },
     {

@@ -17,7 +17,7 @@ const startRecording = {
     {
       key: "roomId",
       value: "abcd-efgh-ijkl",
-      description: "The ID of the Room.",
+      description: "The ID of the room.",
       required: true,
     },
     {
