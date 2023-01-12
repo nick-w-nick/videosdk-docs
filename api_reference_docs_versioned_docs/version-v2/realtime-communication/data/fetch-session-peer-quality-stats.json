@@ -1,7 +1,7 @@
 {
   "fetchSessionPeerQualityStats": {
     "title": "Fetch Participant Quality Stats",
-    "description": "This API lets you fetch the quality statistics of the session using the sessionId.",
+    "description": "This API allows you to fetch the quality statistics for a given session participant.",
     "headers": [
       {
         "key": "Authorization",
@@ -18,12 +18,12 @@
     "parameters": [
       {
         "key": "sessionId",
-        "description": "This is ID of the session you want to fetch quality statistics for.",
+        "description": "The ID of the session you want to fetch quality statistics for.",
         "required": true
       },
       {
         "key": "participantId",
-        "description": "This is ID of the participant for which you want to fetch quality statistics.",
+        "description": "The ID of the participant you want to fetch quality statistics for.",
         "required": true
       }
     ],
