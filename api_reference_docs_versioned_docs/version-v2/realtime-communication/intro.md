@@ -74,7 +74,7 @@ In the `payload` section of the JWT, the following fields are able to be provide
 
   - **CRAWLER**: This role is only applicable within the V2 API, and cannot be used to administrate the `Meeting`/`Room`.
 
-You can then sign your JWT payload containing these options by utilizing the `SECRET` value obtained from [here](https://app.videosdk.live/api-keys).
+You can then sign your JWT payload containing these options by utilizing the `SECRET` value obtained from [here](https://app.videosdk.live/api-keys). For more information on how to generate a JWT token for use with the VideoSDK REST API, see the provided [server-side implementation examples](https://github.com/videosdk-live/videosdk-rtc-api-server-examples).
 
 </div>
 </div>
