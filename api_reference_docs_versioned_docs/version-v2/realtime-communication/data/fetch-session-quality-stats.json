@@ -1,7 +1,7 @@
 {
   "fetchSessionQualityStats": {
     "title": "Fetch Session Quality Stats",
-    "description": "This API lets you fetch the quality statistics of the session using the sessionId.",
+    "description": "This API allows you to fetch the quality statistics of a given session.",
     "headers": [
       {
         "key": "Authorization",
@@ -18,7 +18,7 @@
     "parameters": [
       {
         "key": "sessionId",
-        "description": "This is ID of the session you want to fetch quality statistics for.",
+        "description": "The ID of the session you want to fetch quality statistics for.",
         "required": true
       }
     ],
