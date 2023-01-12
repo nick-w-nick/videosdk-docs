@@ -1,7 +1,7 @@
 {
   "fetchSessions": {
     "title": "Fetch Sessions",
-    "description": "This API lets you fetch details of all your sessions of room by passing roomId or customRoomId as parameter. Optionally, if you don't specify a roomid or customRoomId, you will fetch all the sessions of all your rooms.",
+    "description": "This API allows you to fetch details of all your sessions within a room by passing a roomId or customRoomId as query string parameters. Optionally, if you don't specify a roomId or customRoomId, you will fetch all the sessions of all your rooms.",
     "headers": [
       {
         "key": "Authorization",
@@ -18,27 +18,27 @@
       {
         "key": "roomId",
         "value": "xyz",
-        "description": "#### The ID of the Room.",
+        "description": "#### The ID of the room.",
         "required": true
       },
       {
         "key": "customRoomId",
         "value": "xyz",
-        "description": "#### Customize Room id which you had specified in Create Room API.",
+        "description": "#### A custom ID provided during the creation of the room.",
         "required": false
       },
       {
         "key": "page",
         "defaultValue": "`1`",
         "value": "1",
-        "description": "#### Page number for the sessions.",
+        "description": "#### The page number containing the requested sessions.",
         "required": false
       },
       {
         "key": "perPage",
         "defaultValue": "`20`",
         "value": "20",
-        "description": "#### Number of sessions you want per page.",
+        "description": "#### Number of sessions to return per page.",
         "required": false
       }
     ],
