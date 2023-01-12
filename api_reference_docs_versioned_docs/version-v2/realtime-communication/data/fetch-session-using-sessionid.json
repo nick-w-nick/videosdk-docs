@@ -1,7 +1,7 @@
 {
   "fetchSessionUsingSessionId": {
     "title": "Fetch a Session",
-    "description": "This API lets you fetch a particular session info by passing session Id as parameter.",
+    "description": "This API allows you to fetch the details for a specific session by passing a sessionId as a path parameter.",
     "headers": [
       {
         "key": "Authorization",
@@ -18,7 +18,7 @@
     "parameters": [
       {
         "key": "sessionId",
-        "description": "#### The ID of the Session.",
+        "description": "#### The ID of the session.",
         "required": true
       }
     ],
@@ -26,8 +26,8 @@
     "response": {
       "id": "621490331a4fb00409e38ca4",
       "userId": "5f7edbb14c938bcd42944527",
-      "roomId": "abc-xyzw-lmno",
-      "customRoomId": "testing-room",
+      "roomId": "abcd-efgh-ijkl",
+      "customRoomId": "aaaa-bbbb-cccc",
       "start": "2022-02-22T07:26:43.863Z",
       "end": "2022-02-22T07:48:32.553Z",
       "participants": [
@@ -44,10 +44,10 @@
         }
       ],
       "activeDuration": 0,
-      "chatLink": "https://cdn.videosdk.live/chats/abc-xyzw-lmno-621490331a4fb00409e38ca4-5f7edbb14c938bcd42944527.csv",
+      "chatLink": "https://cdn.videosdk.live/chats/abcd-efgh-ijkl-621490331a4fb00409e38ca4-5f7edbb14c938bcd42944527.csv",
       "status": "ended",
       "links": {
-        "get_room": "https://api.videosdk.live/v2/rooms/abc-xyzw-lmno",
+        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
         "get_session": "https://api.videosdk.live/v2/sessions/"
       }
     }
