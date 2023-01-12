@@ -19,14 +19,14 @@
         "key": "page",
         "defaultValue": "`1`",
         "value": "1",
-        "description": "#### Page number for the rooms.",
+        "description": "#### The page number containing the requested rooms.",
         "required": false
       },
       {
         "key": "perPage",
         "defaultValue": "`20`",
         "value": "20",
-        "description": "#### Number of rooms you want per page.",
+        "description": "#### Number of rooms you want to return per page.",
         "required": false
       }
     ],
