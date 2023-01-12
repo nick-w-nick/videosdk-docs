@@ -1,7 +1,7 @@
 {
   "deactivateRoom": {
     "title": "Deactivate a Room",
-    "description": "This API allows you to deactivate a provided `roomId` permanently.",
+    "description": "This API allows you to deactivate a provided roomId permanently.",
     "headers": [
       {
         "key": "Authorization",
@@ -16,7 +16,7 @@
     "postParameters": [
       {
         "key": "roomId",
-        "description": "#### The ID of the room that you want to deactivate",
+        "description": "#### The roomId of the room that you want to deactivate.",
         "value": "abcd-efgh-ijkl",
         "required": true
       }
