@@ -1,7 +1,7 @@
 {
   "fetchSessions": {
     "title": "Fetch Sessions",
-    "description": "This API allows you to the fetch details for all your sessions within a room by passing a roomId or customRoomId as query string parameters. Optionally, if you don't specify a roomId or customRoomId, you will fetch all the sessions of all your rooms.",
+    "description": "Allows you to the fetch the details for all sessions within a room. Optionally, if you don't specify a room ID, you will fetch all of the sessions for all of your rooms.",
     "headers": [
       {
         "key": "Authorization",

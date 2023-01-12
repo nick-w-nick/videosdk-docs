@@ -1,7 +1,7 @@
 const startRecording = {
   title: "Start Recording",
   description:
-    "This API lets you record your room by passing roomId and config object as body parameters.",
+    "Allows you to begin recording a room with configuration options.",
   headers: [
     {
       key: "Authorization",

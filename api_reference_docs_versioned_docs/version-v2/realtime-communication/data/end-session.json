@@ -1,7 +1,7 @@
 {
   "endSession": {
     "title": "End Session",
-    "description": "This API allows you to end a session by passing the roomId or sessionId in the request body.",
+    "description": "Allows you to end a session via the session ID or the room ID that the session belongs to.",
     "headers": [
       {
         "key": "Authorization",

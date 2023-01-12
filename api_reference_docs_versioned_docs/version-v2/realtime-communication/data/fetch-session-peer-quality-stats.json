@@ -1,7 +1,7 @@
 {
   "fetchSessionPeerQualityStats": {
     "title": "Fetch Participant Quality Stats",
-    "description": "This API allows you to fetch the quality statistics for a given session participant.",
+    "description": "Allows you to fetch the quality statistics for a session participant.",
     "headers": [
       {
         "key": "Authorization",

@@ -1,7 +1,7 @@
 {
   "fetchActiveParticipants": {
     "title": "Fetch Active Participants",
-    "description": "This API allows you to fetch a number of the currently active participants in a session by passing the sessionId as a path parameter.",
+    "description": "Allows you to fetch a number of the currently active participants in a session via the session ID.",
     "headers": [
       {
         "key": "Authorization",

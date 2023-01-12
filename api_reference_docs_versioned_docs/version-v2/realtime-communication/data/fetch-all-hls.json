@@ -1,7 +1,7 @@
 {
   "fetchAllHLS": {
     "title": "Fetch all HLS",
-    "description": "This API lets you fetch all HLS streams.",
+    "description": "Allows you to fetch all HLS streams for a given room or session.",
     "headers": [
       {
         "key": "Authorization",

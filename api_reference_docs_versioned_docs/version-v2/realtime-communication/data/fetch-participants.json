@@ -1,7 +1,7 @@
 {
   "fetchParticipants": {
     "title": "Fetch Participants",
-    "description": "This API allows you to fetch a number of the participants in a session by passing sessionId as a parameter",
+    "description": "Allows you to fetch a number of the participants in a session via the session ID.",
     "headers": [
       {
         "key": "Authorization",

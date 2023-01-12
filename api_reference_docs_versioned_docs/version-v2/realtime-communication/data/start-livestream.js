@@ -1,7 +1,6 @@
 const startLivestream = {
   title: "Start Livestream",
-  description:
-    "This API lets you start a livestream by passing roomId, outputs and config object as body parameters.",
+  description: "Allows you to begin livestreaming a room with configuration options.",
   headers: [
     {
       key: "Authorization",

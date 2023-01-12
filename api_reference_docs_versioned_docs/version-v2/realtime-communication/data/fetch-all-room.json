@@ -1,7 +1,7 @@
 {
   "fetchAllRoom": {
     "title": "Fetch Rooms",
-    "description": "This API lets you fetch all of your rooms.",
+    "description": "Allows you to fetch all existing rooms.",
     "headers": [
       {
         "key": "Authorization",

@@ -1,7 +1,7 @@
 {
   "createRoom": {
     "title": "Create a Room",
-    "description": "This API allows you to create a room with a unique roomId.",
+    "description": "Allows you to create a room with a unique room ID.",
     "headers": [
       {
         "key": "Authorization",

@@ -1,7 +1,7 @@
 {
   "fetchActiveHLS": {
     "title": "Fetch active HLS",
-    "description": "This API lets you fetch an active HLS stream.",
+    "description": "Allows you to fetch the active HLS stream for a given room.",
     "headers": [
       {
         "key": "Authorization",

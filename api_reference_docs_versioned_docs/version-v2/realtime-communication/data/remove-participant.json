@@ -1,7 +1,7 @@
 {
   "removeParticipant": {
     "title": "Remove Participant",
-    "description": "This API allows you to remove a participant from a room or session.",
+    "description": "Allows you to remove a participant from a room or session.",
     "headers": [
       {
         "key": "Authorization",

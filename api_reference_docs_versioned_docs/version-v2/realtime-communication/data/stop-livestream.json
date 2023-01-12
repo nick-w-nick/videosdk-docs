@@ -1,7 +1,7 @@
 {
   "stopLivestream": {
     "title": "Stop Livestream",
-    "description": "This API lets you stop a livestream by passing roomId as a body parameter.",
+    "description": "Allows you to stop the livestream of a room.",
     "headers": [
       {
         "key": "Authorization",
