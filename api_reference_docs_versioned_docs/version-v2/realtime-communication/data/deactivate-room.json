@@ -26,19 +26,7 @@
     "apiEndpoint": "https://api.videosdk.live/v2/rooms/deactivate",
     "response": {
       "webhook": {
-        "events": [
-          "participant-joined",
-          "participant-left",
-          "session-started",
-          "session-ended",
-          "recording-started",
-          "recording-stopped",
-          "livestream-started",
-          "livestream-stopped",
-          "hls-started",
-          "hls-stopped"
-        ],
-        "endPoint": "https://yourwebhook.url"
+        "events": []
       },
       "disabled": true,
       "createdAt": "2022-09-19T08:35:12.585Z",
