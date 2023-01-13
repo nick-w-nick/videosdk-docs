@@ -10,7 +10,7 @@ const generateCode = ({ language }) => {
       code += "const SECRET = <YOUR SECRET>;\n";
       code += "\n";
       code +=
-        "const options = { \n expiresIn: '10m', \n algorithm: 'HS256' \n};\n";
+        "const options = { \n expiresIn: '10m', \n algorithm: 'HS256' \n};\n\n";
       code += "const payload = {\n";
       code += " apikey: API_KEY,\n";
       code += " permissions: [`allow_join`], // `ask_join` || `allow_mod` \n";
