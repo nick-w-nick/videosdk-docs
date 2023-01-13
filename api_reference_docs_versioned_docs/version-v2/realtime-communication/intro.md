@@ -62,9 +62,9 @@ In the `payload` section of the JWT, the following fields are able to be provide
 - `apikey` (**required**): Can be obtained from [here](https://app.videosdk.live/api-keys).
 
 - `permissions` (**required**):
-  - **allow_join**: The participant is **allowed to join** the meeting directly.
-  - **ask_join**: The participant is required to **ask for permission to join** the meeting.
-  - **allow_mod**: The participant is **allowed to toggle** the webcam & mic for other participants.
+  - **allow_join**: Participants are **allowed to join** the session directly.
+  - **ask_join**: Participants are required to **ask for permission to join** the session.
+  - **allow_mod**: Participants are **allowed to toggle** the webcam & mic for other participants.
 
 - `version` (**optional**): The version of the API you want to use. This field is required if you are using the V2 API.
   - 1
