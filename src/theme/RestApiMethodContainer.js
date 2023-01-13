@@ -71,13 +71,13 @@ const generateNodeCode = ({
   code += "const options = {\n";
 
   //adding method tye
-  code += '\tmethod: "' + methodType + '",\n';
+  code += '\tmethod: \'' + methodType + '\',\n';
 
   //add headers if any
   if (headers.length != 0) {
     code += "\theaders: {\n";
     headers.forEach((element) => {
-      code += '\t\t"' + element.key + '": "' + element.value + '",\n';
+      code += '\t\t\'' + element.key + '\': \'' + element.value + '\',\n';
     });
     code += "\t},\n";
   }
@@ -95,9 +95,9 @@ const generateNodeCode = ({
     code +=
       "const " +
       match[0].slice(2, match[0].length - 1) +
-      ' = "your_' +
+      ' = \'your_' +
       match[0].slice(2, match[0].length - 1) +
-      '";\n';
+      '\';\n';
   }
   //add url with query parameters
   if (queryParameters.length != 0) {
@@ -109,7 +109,7 @@ const generateNodeCode = ({
     code = code.slice(0, code.length - 1);
     code += "`;\n";
   } else {
-    code += "const url= `" + apiEndpoint + "`;\n";
+    code += "const url = '" + apiEndpoint + "';\n";
   }
 
   //fire the request
