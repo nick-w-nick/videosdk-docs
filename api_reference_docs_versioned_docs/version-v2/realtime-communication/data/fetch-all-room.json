@@ -35,28 +35,31 @@
     "response": {
       "pageInfo": {
         "currentPage": 1,
-        "perPage": 1,
-        "lastPage": 5,
-        "total": 10
+        "perPage": 20,
+        "lastPage": 1,
+        "total": 1
       },
       "data": [
         {
-          "roomId": "abcd-efgh-ijkl",
-          "customRoomId": "aaaa-bbbb-cccc",
+          "webhook": {
+            "events": []
+          },
           "disabled": false,
           "createdAt": "2022-03-25T04:19:32.380Z",
           "updatedAt": "2022-03-25T04:19:32.380Z",
+          "roomId": "abcd-efgh-ijkl",
+          "customRoomId": "aaaa-bbbb-cccc",
+          "links": {
+            "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
+            "get_session": "https://api.videosdk.live/v2/sessions/"
+          },
           "user": {
             "name": "Test User",
             "email": "test@email.com",
             "discontinuedReason": null,
             "id": "5fa671e77b80d58c11cbca95"
           },
-          "id": "623d42d472498060cccb51f2",
-          "links": {
-            "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
-            "get_session": "https://api.videosdk.live/v2/sessions/"
-          }
+          "id": "623d42d472498060cccb51f2"
         }
       ]
     }
