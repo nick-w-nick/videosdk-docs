@@ -24,17 +24,19 @@
     ],
     "apiEndpoint": "https://api.videosdk.live/v2/rooms/validate/${roomId}",
     "response": {
-      "roomId": "abcd-efgh-ijkl",
-      "customRoomId": "aaaa-bbbb-cccc",
-      "userId": "5f7edbb14c938bcd42944527",
+      "webhook": {
+        "events": []
+      },
       "disabled": false,
       "createdAt": "2022-03-24T11:12:12.619Z",
       "updatedAt": "2022-03-24T11:12:12.619Z",
-      "id": "623c520c6b0631c41cc98e81",
+      "roomId": "abcd-efgh-ijkl",
+      "customRoomId": "aaaa-bbbb-cccc",
       "links": {
-        "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
-        "get_session": "https://api.videosdk.live/v2/sessions/"
-      }
+          "get_room": "https://api.videosdk.live/v2/rooms/abcd-efgh-ijkl",
+          "get_session": "https://api.videosdk.live/v2/sessions/"
+        },
+      "id": "623c520c6b0631c41cc98e81"
     }
   }
 }
