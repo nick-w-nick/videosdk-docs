@@ -4,7 +4,7 @@ import CodeBlock from "@theme/CodeBlock";
 const generateCode = ({ language }) => {
   switch (language) {
     case "node":
-      var code = "const jwt = require('jsonwebtoken');\n";
+      var code = "import { jwt } from 'jsonwebtoken';\n";
       code += "\n";
       code += "const API_KEY = <YOUR API KEY>;\n";
       code += "const SECRET = <YOUR SECRET>;\n";
