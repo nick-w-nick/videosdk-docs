@@ -101,13 +101,13 @@ const generateNodeCode = ({
   }
   //add url with query parameters
   if (queryParameters.length != 0) {
-    code += "const url= `" + apiEndpoint + "?";
+    code += "const url = '" + apiEndpoint + "?";
     queryParameters.forEach((element) => {
       // if (element.required)
       code += element.key + "=" + element.value + "&";
     });
     code = code.slice(0, code.length - 1);
-    code += "`;\n";
+    code += "';\n";
   } else {
     code += "const url = '" + apiEndpoint + "';\n";
   }
